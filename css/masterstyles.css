@@ -1,14 +1,32 @@
 .mainsearch {
+/*  background-color: rgba(0,0,0,0.7);*/
   background-color: black;
+  margin-top: -120px;
+
+  z-index: 100;
+  position: relative;
+  border: 15px solid white;
+
 }
 
 .mainsearch h4 {
   color: white;
   padding: 15px 15px 0px 15px;
-  font-size: 22px;
+  font-size: 32px;
 }
 
 .form-inline {
   margin-left: 15px;
   padding-bottom: 15px;
+}
+
+.btn {
+    border-radius: 0px;
+  border-width: 0px solid white;
+  background-color: #72b84c;
+  padding: 10px;
+}
+
+.search_input {
+  width: 650px !important;
 }

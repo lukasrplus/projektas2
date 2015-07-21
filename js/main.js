@@ -63,7 +63,7 @@ jQuery(function ($) {
 
 	(function () {
 
-		var time = 7; // time in seconds
+		var time = 4; // time in seconds
 
 	 	var $progressBar,
 	      $bar,
@@ -102,7 +102,7 @@ jQuery(function ($) {
 	    //create div#progressBar and div#bar then append to $(".owl-carousel")
 	    function buildProgressBar(){
 	      $progressBar = $("<div>",{
-	        id:"progressBar"
+	        id:"progressar"
 	      });
 	      $bar = $("<div>",{
 	        id:"bar"
