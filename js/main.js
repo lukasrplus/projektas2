@@ -7,9 +7,9 @@ jQuery(function ($) {
     // ----------------------------------------------
 
     /*-----------------------------------------------
-    # Dropdown Menu Animation 
-	# Slider 
-	# Navigation fixed 
+    # Dropdown Menu Animation
+	# Slider
+	# Navigation fixed
 	# Search
 	# Portfolio Filter
 	# Chart init
@@ -40,12 +40,12 @@ jQuery(function ($) {
 		})
 
     }());
-	
-	
+
+
 	// ----------------------------------------------
-    // # Dropdown Menu Animation 
+    // # Dropdown Menu Animation
     // ----------------------------------------------
-	
+
 	(function () {
 		$('.dropdown').on('show.bs.dropdown', function(e){
 			$(this).find('.dropdown-menu').first().stop(true, true).slideDown(300);
@@ -58,26 +58,27 @@ jQuery(function ($) {
 	}());
 
     // ----------------------------------------------
-    // # Slider 
+    // # Slider
     // ----------------------------------------------
-    
+
 	(function () {
 
 		var time = 7; // time in seconds
 
 	 	var $progressBar,
-	      $bar, 
-	      $elem, 
-	      isPause, 
+	      $bar,
+	      $elem,
+	      isPause,
 	      tick,
 	      percentTime;
-	 
+
 	    //Init the carousel
 	    $("#main-slider").find('.owl-carousel').owlCarousel({
 	      slideSpeed : 500,
 	      paginationSpeed : 500,
 	      singleItem : true,
 	      navigation : true,
+        autoHeight : true,
 			navigationText: [
 			"<i class='fa fa-angle-left'></i>",
 			"<i class='fa fa-angle-right'></i>"
@@ -88,7 +89,7 @@ jQuery(function ($) {
 	      //autoHeight : true,
 	      transitionStyle : "fadeUp"
 	    });
-	 
+
 	    //Init progressBar where elem is $("#owl-demo")
 	    function progressBar(elem){
 	      $elem = elem;
@@ -97,7 +98,7 @@ jQuery(function ($) {
 	      //start counting
 	      start();
 	    }
-	 
+
 	    //create div#progressBar and div#bar then append to $(".owl-carousel")
 	    function buildProgressBar(){
 	      $progressBar = $("<div>",{
@@ -108,7 +109,7 @@ jQuery(function ($) {
 	      });
 	      $progressBar.append($bar).appendTo($elem);
 	    }
-	 
+
 	    function start() {
 	      //reset timer
 	      percentTime = 0;
@@ -116,7 +117,7 @@ jQuery(function ($) {
 	      //run interval every 0.01 second
 	      tick = setInterval(interval, 10);
 	    };
-	 
+
 	    function interval() {
 	      if(isPause === false){
 	        percentTime += 1 / time;
@@ -125,17 +126,17 @@ jQuery(function ($) {
 	         });
 	        //if percentTime is equal or greater than 100
 	        if(percentTime >= 100){
-	          //slide to next item 
+	          //slide to next item
 	          $elem.trigger('owl.next')
 	        }
 	      }
 	    }
-	 
-	    //pause while dragging 
+
+	    //pause while dragging
 	    function pauseOnDragging(){
 	      isPause = true;
 	    }
-	 
+
 	    //moved callback
 	    function moved(){
 	      //clear interval
@@ -145,11 +146,11 @@ jQuery(function ($) {
 	    }
 
 	}());
-	
+
 	// ----------------------------------------------
-    // # Navigation fixed  
-    // ----------------------------------------------	
-	
+    // # Navigation fixed
+    // ----------------------------------------------
+
 	(function () {
 		$(window).on('scroll', function(){
 			if( $(window).scrollTop()>65 ){
@@ -159,9 +160,9 @@ jQuery(function ($) {
 			};
 		});
 	}());
-	
-		
-	
+
+
+
 	// ----------------------------------------------
     // # Search
     // ----------------------------------------------
@@ -171,13 +172,13 @@ jQuery(function ($) {
         $('.fa-search').on('click', function() {
             $('.search').fadeIn(500, function() {
               $(this).toggleClass('search-toggle');
-            });     
+            });
         });
 
         $('.search-close').on('click', function() {
             $('.search').fadeOut(500, function() {
                 $(this).removeClass('search-toggle');
-            }); 
+            });
         });
 
     }());
@@ -185,16 +186,16 @@ jQuery(function ($) {
     // ----------------------------------------------
     // # Portfolio Filter
     // ----------------------------------------------
-    
+
 	(function () {
-		
+
       var $portfolio_selectors = $('.project-filter >ul>li>a');
 		var $portfolio = $('.all-project');
 		$portfolio.isotope({
 			itemSelector : '.filterable-product',
 			layoutMode : 'fitRows'
 		});
-		
+
 		$portfolio_selectors.on('click', function(){
 			$portfolio_selectors.removeClass('active');
 			$(this).addClass('active');
@@ -204,16 +205,16 @@ jQuery(function ($) {
 		});
 
     }());
-	
+
 
 
     // ----------------------------------------------
     // # Chart init
     // ----------------------------------------------
 
-   
+
 	(function () {
-	
+
 	    $('.skill-circle').easyPieChart( {
 			barColor: '#c1c1c1',
 			trackColor: '#ffffff',
@@ -223,24 +224,24 @@ jQuery(function ($) {
 			lineWidth: 10,
 			size: 110
 		});
-	
+
 	}());
 
-       
+
 
     // ----------------------------------------------
     // # Parallax Scrolling
     // ----------------------------------------------
-    
+
     (function () {
 
-        function parallaxInit() {       
+        function parallaxInit() {
             $("#parallax-one").parallax("50%", 0.3);
             $("#parallax-two").parallax("50%", 0.3);
-        }   
+        }
         parallaxInit();
 
-    }());    
+    }());
 
     // ----------------------------------------------
     // # smoothScroll
@@ -264,7 +265,7 @@ jQuery(function ($) {
         });
 
     }());
-	
+
     // ----------------------------------------------
     // # Google Map Customization
     // ----------------------------------------------
@@ -302,8 +303,8 @@ jQuery(function ($) {
                 borderColor: 'red',
             }
         });
-          
-        var styles = [ 
+
+        var styles = [
 
             {
               "featureType": "road",
@@ -333,18 +334,18 @@ jQuery(function ($) {
                 { "color": "#7f8080" }
               ]
             }
-      
+
         ];
 
     map.addStyle({
             styledMapName:"Styled Map",
             styles: styles,
-            mapTypeId: "map_style"  
+            mapTypeId: "map_style"
         });
 
         map.setStyle("map_style");
     }());
 
-    
+
 
 }); // script end

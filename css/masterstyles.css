@@ -1,0 +1,14 @@
+.mainsearch {
+  background-color: black;
+}
+
+.mainsearch h4 {
+  color: white;
+  padding: 15px 15px 0px 15px;
+  font-size: 22px;
+}
+
+.form-inline {
+  margin-left: 15px;
+  padding-bottom: 15px;
+}
