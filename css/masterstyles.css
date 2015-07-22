@@ -1,3 +1,7 @@
+body {
+  background-color: #bdc3c7;
+}
+
 .mainsearch {
 /*  background-color: rgba(0,0,0,0.7);*/
   background-color: black;
@@ -25,8 +29,10 @@
   border-width: 0px solid white;
   background-color: #72b84c;
   padding: 10px;
+  margin-top: -15px;
 }
 
 .search_input {
   width: 650px !important;
+  margin-bottom: 15px;
 }
