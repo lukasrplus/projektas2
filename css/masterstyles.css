@@ -36,3 +36,13 @@ body {
   width: 650px !important;
   margin-bottom: 15px;
 }
+
+.topprojekte {
+  margin-top: 45px;
+}
+.topprojekt_box {
+  border: 15px solid white;
+  background-color: white;
+  color: black;
+  border-radius: 0px;
+}
