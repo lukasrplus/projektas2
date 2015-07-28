@@ -112,8 +112,12 @@ h3 {
 .top_h3 {
   font-size: 18px;
   font-family: 'Raleway';
+  color: black;
 }
 
+a {
+  color: grey;
+}
 
 .np {
 	padding: 0;

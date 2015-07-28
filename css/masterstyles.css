@@ -78,7 +78,7 @@ body {
 }
 
 .team {
-  background-color: black;
+  background-color: #72b84c;
 }
 
 /*SECTIONS END*/
@@ -139,6 +139,18 @@ body {
 
 .extra_box {
   padding: 50px;
+}
+
+.team_row {
+  background-color: black;
+  padding: 100px;
+}
+
+.team_box {
+  background-color: white;
+  padding: 15px;
+  border: 15px solid black;
+  color: grey;
 }
 
 
