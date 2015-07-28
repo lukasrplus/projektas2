@@ -51,3 +51,33 @@ body {
   margin-top: 25px;
   width: 100%;
 }
+
+.section_h2 {
+  text-align: center;
+  margin-top: 180px;
+}
+
+.philosophy {
+  margin-top: 100px;
+}
+
+.phil_hl {
+  background-image: url(https://s3-us-west-2.amazonaws.com/projektas/backgrounds/bg5.jpeg);
+  background-size: cover;
+  height: 400px;
+}
+
+.intro_content {
+  background-color: white;
+}
+
+.gf_pic {
+  background-image: url(https://s3-us-west-2.amazonaws.com/projektas/founders.jpg);
+  background-size: cover;
+  height: 400px;
+}
+
+.phil_content {
+  padding: 100px;
+  text-align: center;
+}
