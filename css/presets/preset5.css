@@ -31,7 +31,7 @@ a:hover, #navigation .navbar-right .dropdown-menu-large li a:hover,
 }
 
 .portfolio-item a:hover{
-	color:#2c905e
+	color:#72b84c;
 }
 
 .navbar-right .dropdown-menu, .search-form {
@@ -39,7 +39,7 @@ a:hover, #navigation .navbar-right .dropdown-menu-large li a:hover,
 }
 
 .portfolio-item .overlay, .instagram li a:before, .member .overlay {
-	background-color: rgba(55,184,120,0.8);
+	background-color: rgba(74,193,76,0.8);
 }
 
 
