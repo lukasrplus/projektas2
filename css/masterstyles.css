@@ -75,7 +75,10 @@ body {
 
 .extra_service {
   background-color: white;
+}
 
+.team {
+  background-color: black;
 }
 
 /*SECTIONS END*/
@@ -100,16 +103,20 @@ body {
   height: 1200px;
 }
 
-
-
-.intro_content {
-  background-color: white;
+.team_hl {
+  background-image: url(https://s3-us-west-2.amazonaws.com/projektas/founders.jpg);
+  background-size: cover;
+  height: 400px;
 }
 
 .gf_pic {
   background-image: url(https://s3-us-west-2.amazonaws.com/projektas/founders.jpg);
   background-size: cover;
   height: 400px;
+}
+
+.intro_content {
+  background-color: white;
 }
 
 .phil_content {
