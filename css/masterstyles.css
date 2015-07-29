@@ -100,13 +100,19 @@ body {
 .leistung_hl {
   background-image: url(https://s3-us-west-2.amazonaws.com/projektas/backgrounds/bg8.jpeg);
   background-size: cover;
-  height: 1200px;
+  height: 1300px;
 }
 
 .team_hl {
   background-image: url(https://s3-us-west-2.amazonaws.com/projektas/founders.jpg);
   background-size: cover;
   height: 400px;
+}
+
+.kontakt_hl {
+  background-image: url(https://s3-us-west-2.amazonaws.com/projektas/backgrounds/bg6.jpeg);
+  background-size: cover;
+  height: 600px;
 }
 
 .gf_pic {
@@ -126,11 +132,11 @@ body {
 
 .leistung_box {
   background-color: rgba(255,255,255,1);
-  margin: 50px;
+  margin: 100px 50px;
   padding: 50px;
   height: 400px;
 /*  border: 15px solid black;*/
-  font-weight: 700;
+/*  font-weight: 700;*/
 }
 
 .extra_icon_row {

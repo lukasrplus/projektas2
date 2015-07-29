@@ -1451,11 +1451,8 @@ a.entry-title h2 {
 ==========================*/
 
 .footer-widget-wrapper {
-	background: url(../images/bg/1.jpg) no-repeat;
-	padding: 57px 0 20px;
-	border-top: 1px solid #dfdfdf;
-	position: relative;
-	background-size:cover;
+background-color: white;
+padding-top: 100px;
 }
 
 .footer-widget-wrapper:before {
@@ -1472,6 +1469,7 @@ a.entry-title h2 {
 
 .footer-widget {
 	margin-bottom: 30px;
+  font-family: 'Raleway' !important;
 }
 
 .footer-widget h1 {
