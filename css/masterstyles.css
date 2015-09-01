@@ -31,6 +31,11 @@ body {
   margin-top: -15px;
 }
 
+.btn-light {
+  background-color: white;
+  color: #72b84c;
+}
+
 .search_input {
   width: 650px !important;
   margin-bottom: 15px;
@@ -44,6 +49,7 @@ body {
   background-color: white;
   color: black;
   border-radius: 0px;
+  margin-bottom: 50px;
 }
 
 .btn-topprojekt {
@@ -97,7 +103,7 @@ body {
 }
 
 .leistung_hl {
-  background-image: url(https://s3-us-west-2.amazonaws.com/projektas/backgrounds/bg8.jpeg);
+  background-image: url(https://s3-us-west-2.amazonaws.com/projektas/backgrounds/bg_new6.jpg);
   background-size: cover;
   height: 1300px;
 }
@@ -130,12 +136,16 @@ body {
 }
 
 .leistung_box {
-  background-color: rgba(255,255,255,1);
+  background-color: rgba(255,255,255,0.8);
   margin: 100px 50px;
   padding: 50px;
-  height: 400px;
+  height: 170px;
 /*  border: 15px solid black;*/
 /*  font-weight: 700;*/
+}
+
+.leistung_box h3 {
+  text-align: center;
 }
 
 .extra_icon_row {
