@@ -63,7 +63,7 @@ jQuery(function ($) {
 
 	(function () {
 
-		var time = 4; // time in seconds
+		var time = 7; // time in seconds
 
 	 	var $progressBar,
 	      $bar,
@@ -74,8 +74,8 @@ jQuery(function ($) {
 
 	    //Init the carousel
 	    $("#main-slider").find('.owl-carousel').owlCarousel({
-	      slideSpeed : 500,
-	      paginationSpeed : 500,
+	      slideSpeed : 1200,
+	      paginationSpeed : 1200,
 	      singleItem : true,
 	      navigation : true,
         autoHeight : true,

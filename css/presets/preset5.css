@@ -27,7 +27,7 @@ a:hover, #navigation .navbar-right .dropdown-menu-large li a:hover,
 
 #navigation .header-section, #main-slider .owl-prev:hover,
 #main-slider .owl-next:hover {
-	background-color: white;
+	background-color: rgba(255,255,255,0.6);
 }
 
 .portfolio-item a:hover{
@@ -76,11 +76,11 @@ a.read-more span {
 }
 
 #main-slider .item.item-two{
-	background-image: url(../../images/bg1.jpg);
+	background-image: url(../../images/bg_new1.jpg);
 }
 
 #main-slider .item.item-three{
-	background-image: url(../../images/bg11.jpeg);
+	background-image: url(../../images/bg_new3.jpg);
 }
 
 #main-slider.content-slider2 {

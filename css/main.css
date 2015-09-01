@@ -562,9 +562,11 @@ a {
 	font-size: 60px;
 	font-weight:300;
 	text-transform: uppercase;
-	color: black;
-		background-color: white;
+	color: white;
 		padding: 15px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+  background-color: rgba(0,0,0,0);
 }
 
 #main-slider .slider-inner h2 > span {
@@ -572,10 +574,12 @@ a {
 }
 
 #main-slider .slider-inner p {
-	max-width:650px;
-		background-color: white;
+/*	max-width:650px;*/
+  background-color: rgba(0,0,0,0);
 		padding: 15px;
+    padding-top: 5px;
 		margin-top: 0px;
+    color: white;
 }
 
 #main-slider .slider-inner .btn {
