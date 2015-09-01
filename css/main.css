@@ -541,7 +541,7 @@ a {
 }
 
 #main-slider .item {
-	height: 750px;
+	height: 700px;
 	background-repeat: no-repeat;
 	background-position: 50% 0;
 	background-size: cover;
@@ -560,7 +560,7 @@ a {
 }
 
 #main-slider .slider-inner h2 {
-	font-size: 60px;
+	font-size: 65px;
 	font-weight:300;
 	text-transform: uppercase;
 	color: white;
