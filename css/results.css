@@ -65,12 +65,15 @@ font-size: 17px;
   background-color: white;
   color: black;
   border-radius: 0px;
-  height: 600px;
   padding: 15px;
 
 }
 .listing_row_details {
   padding: 2px;
+}
+
+.listing_row {
+  padding-top: 15px;
 }
 
 .listing_row h3 {
@@ -106,23 +109,24 @@ font-size: 17px;
 
 .listing_hl {
   text-align: center;
-  background-color: #434343;
-  margin: 15px 0px;
-  padding: 15px 0px;
+  background-color: white;
+  margin: 8px 0px;
+  padding: 7px 0px;
+
 
 }
 
 .listing_hl h3 {
-  color: white;
+  color: black;
   margin-top: 10px;
 }
 
 .listing_hl p {
-  color: white;
+  color: black;
 }
 
 .abbinder {
   height: 20px;
-  border-bottom: 15px solid #BDC3C7;
+  border-bottom: 30px solid #BDC3C7;
 }
 
