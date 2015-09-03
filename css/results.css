@@ -104,3 +104,25 @@ font-size: 17px;
   font-size: 14px;
 }
 
+.listing_hl {
+  text-align: center;
+  background-color: #434343;
+  margin: 15px 0px;
+  padding: 15px 0px;
+
+}
+
+.listing_hl h3 {
+  color: white;
+  margin-top: 10px;
+}
+
+.listing_hl p {
+  color: white;
+}
+
+.abbinder {
+  height: 20px;
+  border-bottom: 15px solid #BDC3C7;
+}
+
