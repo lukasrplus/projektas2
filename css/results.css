@@ -94,6 +94,14 @@ text-transform: uppercase;
   margin-bottom: 0px;
 }
 
+.listing_row h2 {
+  color: black;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 25px 0px;
+  margin-bottom: 25px;
+}
+
 .detail_info_left {
   margin-top: 15px;
 }
@@ -164,5 +172,17 @@ dt small {
 
 .object_longtext {
   margin-top: 15px;
+}
+
+.contact_object_box {
+  background-color: #72b84c;
+  margin-top: 30px;
+    color: white;
+}
+
+.contact_object_box h3 {
+
+  font-size: 20px;
+  margin: 15px 0px;
 }
 
