@@ -27,6 +27,27 @@ jQuery(function ($) {
 
 		var presets = $('.style-chooser ul li');
 
+// SCROLLING ANIMATIONS
+  $('#nav_philosophy').click(function(e){
+    e.preventDefault();
+    $('html, body').animate({ scrollTop: $("#scroll_philosophy").offset().top}, 1000);
+  });
+
+  $('#nav_team').click(function(e){
+    e.preventDefault();
+    $('html, body').animate({ scrollTop: $("#scroll_team").offset().top}, 1000);
+  });
+
+  $('#nav_reference').click(function(e){
+    e.preventDefault();
+    $('html, body').animate({ scrollTop: $("#scroll_reference").offset().top}, 1000);
+  });
+    $('#nav_contact').click(function(e){
+    e.preventDefault();
+    $('html, body').animate({ scrollTop: $("#scroll_contact").offset().top}, 1000);
+  });
+// END OF SCROLLING ANIMATIONS
+
 		$('.style-chooser .toggler').on('click', function(event){
 			event.preventDefault();
 			$(this).closest('.style-chooser').toggleClass('opened');
