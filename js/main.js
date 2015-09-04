@@ -30,12 +30,12 @@ jQuery(function ($) {
 // SCROLLING ANIMATIONS
   $('#nav_philosophy').click(function(e){
     e.preventDefault();
-    $('html, body').animate({ scrollTop: $("#scroll_philosophy").offset().top}, 1000);
+    $('html, body').animate({ scrollTop: $("#scroll_philosophy").offset().top - 200}, 1000);
   });
 
   $('#nav_team').click(function(e){
     e.preventDefault();
-    $('html, body').animate({ scrollTop: $("#scroll_team").offset().top}, 1000);
+    $('html, body').animate({ scrollTop: $("#scroll_team").offset().top - 200}, 1000);
   });
 
   $('#nav_reference').click(function(e){
@@ -45,6 +45,18 @@ jQuery(function ($) {
     $('#nav_contact').click(function(e){
     e.preventDefault();
     $('html, body').animate({ scrollTop: $("#scroll_contact").offset().top}, 1000);
+  });
+  $('#nav_projects').click(function(e){
+    e.preventDefault();
+    $('html, body').animate({ scrollTop: $("#scroll_projects").offset().top - 200}, 1000);
+  });
+    $('#nav_projects2').click(function(e){
+    e.preventDefault();
+    $('html, body').animate({ scrollTop: $("#scroll_projects").offset().top - 200}, 1000);
+  });
+    $('#kennenlernen').click(function(e){
+    e.preventDefault();
+    $('html, body').animate({ scrollTop: $("#scroll_philosophy").offset().top - 200}, 1000);
   });
 // END OF SCROLLING ANIMATIONS
 

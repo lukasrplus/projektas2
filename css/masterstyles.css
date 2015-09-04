@@ -194,3 +194,17 @@ body {
 .navbar {
   margin-bottom: 0px;
 }
+
+.contact_phone {
+  position: fixed:
+  right: 1;
+  top: 60;
+  background-color: #72b84c;
+  text-align: center;
+  color: white;
+}
+
+.contact_phone p {
+  font-weight: 700;
+  padding: 5px 0px;
+}

@@ -1,6 +1,6 @@
 .mainsearch_results {
   background-color: #BDC3C7;
-  margin-top: 125px;
+  margin-top: 170px;
 
   z-index: 100;
   position: relative;
@@ -167,7 +167,21 @@ dt small {
 
   margin-top: 50px;
 
+  text-align: left;
+}
+
+.more_pictures p {
+  text-align: left;
+  margin-bottom: 2px;
+}
+
+.more_pictures h5 {
   text-align: center;
+  font-family: 'Raleway';
+}
+
+.more_pictures h3 {
+  font-size: 14px;
 }
 
 .object_longtext {
