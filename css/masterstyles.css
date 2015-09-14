@@ -208,3 +208,42 @@ body {
   font-weight: 700;
   padding: 5px 0px;
 }
+
+
+/*PROJECTS*/
+
+.project_header_bg {
+   background:
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(https://s3-us-west-2.amazonaws.com/projektas/backgrounds/projekt_jaeger3.jpg);
+      height: 300px;
+  padding: 0px;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  background-repeat: no-repeat;
+  width: auto;
+}
+
+
+
+.project_header_bg h2 {
+  color: white;
+  text-transform: uppercase;
+  margin: 0px;
+  text-align: center;
+}
+
+.project_header_bg h4 {
+  font-family: 'Lato';
+  color: white;
+  text-align: center;
+  font-weight: 700;
+}
+
+.project_header_bg p {
+    padding-top: 100px;
+  font-family: 'Lato';
+  color: white;
+  text-align: center;
+}
