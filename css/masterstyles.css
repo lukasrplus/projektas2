@@ -187,6 +187,15 @@ body {
   margin-top: 180px;
 }
 
+.login_row {
+  background-color: white;
+  margin-top: 180px;
+  height: 500px;
+  padding: 50px;
+}
+
+
+
 
 /*EXTRA MEDIA QUERIES*/
 
