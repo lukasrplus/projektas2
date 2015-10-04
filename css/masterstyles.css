@@ -168,6 +168,14 @@ body {
   color: grey;
 }
 
+.nav2_row {
+  height: 80px;
+  background-color: white;
+  margin: 0px 0px 15px 0px;
+  padding: 0px;
+  border: 15px solid white;
+}
+
 
 
 /*EXTRA MEDIA QUERIES*/
