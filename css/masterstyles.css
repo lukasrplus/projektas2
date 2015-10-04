@@ -176,6 +176,16 @@ body {
   border: 15px solid white;
 }
 
+.footer_row {
+
+  padding: 20px 0px;
+  text-align: center;
+  color: white;
+}
+
+.agb {
+  margin-top: 180px;
+}
 
 
 /*EXTRA MEDIA QUERIES*/
